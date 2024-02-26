@@ -9,7 +9,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10.5,<3.11"
-poethepoet = "^0.24.3"
+poethepoet = "^0.25.0"
 copier = "^9.1.1"
 copier-template-tester = "^2.1.1"
 copier-templates-extensions = "^0.3.0"
@@ -27,7 +27,7 @@ pytest = "^8.0.1"
 pytest-doctestplus = "^1.1.0"
 covdefaults = "^2.3.0"
 #%- endif %#
-poethepoet = "^0.24.3"
+poethepoet = "^0.25.0"
 #%- if precommit %#
 pre-commit = "<3.6.0"
 #%- endif %#
