@@ -23,7 +23,7 @@ ruff = "^0.2.2"
 towncrier = "^23.11.0"
 #%- if tests %#
 coverage = "^7.4.2"
-pytest = "^8.0.1"
+pytest = "^8.1.1"
 pytest-doctestplus = "^1.1.0"
 covdefaults = "^2.3.0"
 #%- endif %#
