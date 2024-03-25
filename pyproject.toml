@@ -34,7 +34,7 @@ pre-commit = "<3.6.0"
 #%- if public and tests %#
 smokeshow = "^0.4.0"
 #%- endif %#
-keyring = "^24.3.0"
+keyring = "^25.0.0"
 
 #%- if not included %#
 [build-system]
