@@ -94,8 +94,7 @@ class InplaceContextHook(ContextHook, metaclass=ABCMeta):
         return self._hook(context, bash) or context
 
     @abstractmethod
-    def _hook(self, context: dict[str, Any], bash: MakeContextDict, /) -> None:
-        ...
+    def _hook(self, context: dict[str, Any], bash: MakeContextDict, /) -> None: ...
 
 
 # Assume the tester is in the skeleton repository
